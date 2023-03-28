@@ -1,10 +1,10 @@
 #include <AT89S52.h> /* include header for AT89S52 */
 
-void wait (void);
+void wait (void); /* To Perform Delay Operation */
 
 void main()
 {
-  while(1)
+  while(1) /*Loop 
   {
   P2_0= 0;
   wait();
