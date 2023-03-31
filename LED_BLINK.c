@@ -4,7 +4,7 @@ void wait (void); /* To Perform Delay Operation */
 
 void main()
 {
-  while(1) /*Loop 
+  while(1) /*Loop*/ 
   {
   P2_0= 0;
   wait();
